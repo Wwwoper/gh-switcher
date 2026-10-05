@@ -1,0 +1,35 @@
+#gh-sw-box {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 99999;
+  display: flex;
+  gap: 10px;
+}
+
+#gh-sw-box a {
+  padding: 8px 14px;
+  border: 2px solid #111;
+  border-radius: 8px;
+  color: #111 !important;
+  font: 700 13px system-ui, sans-serif;
+  text-decoration: none;
+  box-shadow: 3px 3px 0 #111;
+  transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.15s ease;
+}
+
+#gh-sw-box a:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #111;
+}
+
+#gh-sw-box a:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 0 #111;
+}
+
+#gh-sw-ingest { background: #ffc480; }
+#gh-sw-ingest:hover { background: #ffb35c; }
+
+#gh-sw-diagram { background: #c4a1ff; }
+#gh-sw-diagram:hover { background: #b388ff; }
